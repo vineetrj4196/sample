@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+     <style> 
+     *{
+        font-style: oblique;
+
+     }
+     .Parent{
+        height: 600px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-image:linear-gradient(#76ABAE, #E5C287);
+        background-repeat: no-repeat;
+        background-size: cover;
+     }
+     .child{
+        height: 380px;
+        width: 350px;
+       
+        background-image:linear-gradient(#EEE4B1,#430A5D);
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+        top: 50px;
+        border-radius: 30px;
+       padding: 20px;
+     }
+     a{
+        text-decoration: none;
+     }
+    .button{
+        height: 40px;
+        width: 100px;
+        font-size: 15px;
+    }
+    .text{
+        padding: 10px;
+        font-size: large;
+    }
+    .input{
+        width: 350px;
+    }
+</style>
+</head>
+<body>
+    <div class="Parent">
+        <div class="child">
+         <form action="">
+          <h1><center>Sign In</center></h1>
+          <div class="text">
+            <label for="Username">Username</label>
+            <input type="text" name="" id="Username" placeholder="Username/Email" class="input"> 
+        </div>
+        <div class="text">
+            <label for="Password">Password</label>
+            <input type="password" name="" id="Password" placeholder="password" class="input">
+        </div>
+        <div class="text">
+            <label for="Password">Re-type Password</label>
+            <input type="password" name="" id="Password" placeholder="Re-enter password" class="input">
+        </div>
+        <div class="text">
+            Gender<input type="radio" name="gender" id="gender">Male
+            Female<input type="radio" name="gender" id="gender">
+            Others<input type="radio" name="gender" id="gender">
+        </div>
+        <div class="text">
+            <label for="date">Date</label>
+            <input type="date" name="" id="date">
+        </div>
+        <div class="text">
+            <button class="button"><a href="/login.html" target="_blank">Sign In</a></button>
+            <button class="button"><a href="https//:www google.com">Cancel</a></button>
+        </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
